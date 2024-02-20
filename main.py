@@ -1,5 +1,6 @@
 import logging
 from task_1.number_squares import get_user_data, NumberSquares, number_squares_generator
+from task_2.file_paths import gen_files_path, get_files_path
 
 logger = logging.getLogger(__name__)
 fileHandler = logging.FileHandler(filename='application_log.log', encoding='utf-8')
@@ -8,16 +9,21 @@ logging.basicConfig(format='[%(levelname)-10s] [модуль:%(name)22s] %(ascti
 
 if __name__ == '__main__':
     logger.info("Скрипт запущен")
-    user_data = get_user_data()
-    num_squares = NumberSquares(user_data)
-    print(next(num_squares))
+    # Ниже код для запуска скрипта реализованного в рамках task_1
+    # user_data = get_user_data()
+    # num_squares = NumberSquares(user_data)
+    # print(next(num_squares))
+    #
+    # print(*number_squares_generator(user_data))
+    #
+    # try:
+    #     logger.info("Создание генераторного выражения")
+    #     generator_expression = (num ** 2 for num in range(1, user_data + 1))
+    #     logger.info(f"Успешно создано генераторное выражение - generator_expression")
+    #     print(*generator_expression)
+    # except ValueError as err:
+    #     logger.exception(f"Не удалось создать генераторное выражение из за следующей ошибки: {err}")
 
-    print(*number_squares_generator(user_data))
-
-    try:
-        logger.info("Создание генераторного выражения")
-        generator_expression = (num ** 2 for num in range(1, user_data + 1))
-        logger.info(f"Успешно создано генераторное выражение - generator_expression")
-        print(*generator_expression)
-    except ValueError as err:
-        logger.exception(f"Не удалось создать генераторное выражение из за следующей ошибки: {err}")
+    # Ниже код для запуска скрипта реализованного в рамках task_2
+    path_name = get_files_path()
+    print(*gen_files_path(path_name), sep='\n')
