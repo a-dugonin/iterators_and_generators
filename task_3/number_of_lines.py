@@ -7,6 +7,11 @@ logger = logging.getLogger(__name__)
 
 
 def numbers_of_lines(path: str) -> Iterator[str]:
+    """
+    Функция генератора, выдает количество строк кода во всех файлах с расширением .py в указанном каталоге
+    :param path: адрес каталога
+    :return: Iterator[str]
+    """
     logger.info("Запуск функции numbers_of_lines")
     try:
         files, my_files = tee(os.scandir(path), 2)
@@ -26,7 +31,8 @@ def numbers_of_lines(path: str) -> Iterator[str]:
         logger.error("Указанного каталога не существует")
 
 
-def get_files_path():
+def get_files_path() -> str:
+    """ Функция запрашивает у пользователя адрес каталога """
     logger.info("Запрос каталога пользователя")
     path_name = input("Введите адрес каталога: ")
     logger.info(f"Функция {get_files_path.__name__} отработала корректно. Получено имя каталога: {path_name}")
