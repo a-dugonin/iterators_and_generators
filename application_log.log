@@ -1,0 +1,81 @@
+[INFO      ] [модуль:              __main__] 2024-02-20 19:45:07,470   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:45:07,470   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:45:22,607   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/Documents
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:45:22,607   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:45:22,607   - В указанном каталоге отсутствуют python файлы
+[INFO      ] [модуль:              __main__] 2024-02-20 19:46:27,931   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:46:27,931   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:46:40,049   - Функция get_files_path отработала корректно. Получено имя каталога: home/anton/Downloads
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:46:40,049   - Запуск функции numbers_of_lines
+[ERROR     ] [модуль:task_3.number_of_lines] 2024-02-20 19:46:40,049   - Указанного каталога не существует
+[INFO      ] [модуль:              __main__] 2024-02-20 19:47:59,203   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:47:59,204   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,821   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/Downloads
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,821   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,822   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,822   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,822   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,822   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,822   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,822   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,823   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,823   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,823   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,823   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,823   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,823   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 19:48:01,824   - В указанном каталоге /home/anton/Downloads отсутствуют файлы c расширением .py
+[INFO      ] [модуль:              __main__] 2024-02-20 20:07:06,993   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 20:07:06,993   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 20:07:09,524   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/PycharmProjects/iterators_and_generators/task_3
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 20:07:09,524   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 20:07:09,524   - В указанном каталоге /home/anton/PycharmProjects/iterators_and_generators/task_3 отсутствуют файлы c расширением .py
+[INFO      ] [модуль:              __main__] 2024-02-20 20:09:17,860   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 20:09:17,861   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 20:09:20,368   - Функция get_files_path отработала корректно. Получено имя каталога: test
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 20:09:20,368   - Запуск функции numbers_of_lines
+[ERROR     ] [модуль:task_3.number_of_lines] 2024-02-20 20:09:20,368   - Указанного каталога не существует
+[INFO      ] [модуль:              __main__] 2024-02-20 20:10:27,201   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 20:10:27,201   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 20:10:34,129   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/PycharmProjects/iterators_and_generators/task_3
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 20:10:34,130   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-20 20:10:34,130   - В указанном каталоге /home/anton/PycharmProjects/iterators_and_generators/task_3 отсутствуют файлы c расширением .py
+[INFO      ] [модуль:              __main__] 2024-02-21 20:26:33,563   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:26:33,563   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:26:36,053   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/PycharmProjects/iterators_and_generators/
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:26:36,053   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:              __main__] 2024-02-21 20:26:45,645   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:26:45,645   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:26:55,989   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/Documents
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:26:55,989   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:              __main__] 2024-02-21 20:44:47,245   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:44:47,245   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:44:54,969   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/PycharmProjects/iterators_and_generators
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:44:54,970   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:              __main__] 2024-02-21 20:48:03,811   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:48:03,811   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:48:05,678   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/PycharmProjects/iterators_and_generators
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:48:05,678   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:              __main__] 2024-02-21 20:48:48,841   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:48:48,841   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:48:52,162   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/PycharmProjects/iterators_and_generators
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:48:52,162   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:              __main__] 2024-02-21 20:49:10,006   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:49:10,006   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:49:17,511   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/PycharmProjects/iterators_and_generators/task_3
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:49:17,511   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:              __main__] 2024-02-21 20:50:37,587   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:50:37,587   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:50:39,758   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/PycharmProjects/iterators_and_generators/task_3
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:50:39,758   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:50:39,758   - Функция numbers_of_lines отработала корректно
+[INFO      ] [модуль:              __main__] 2024-02-21 20:50:51,683   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:50:51,684   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:50:57,184   - Функция get_files_path отработала корректно. Получено имя каталога: test
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:50:57,184   - Запуск функции numbers_of_lines
+[ERROR     ] [модуль:task_3.number_of_lines] 2024-02-21 20:50:57,184   - Указанного каталога не существует
+[INFO      ] [модуль:              __main__] 2024-02-21 20:51:12,296   - Скрипт запущен
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:51:12,297   - Запрос каталога пользователя
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:51:23,246   - Функция get_files_path отработала корректно. Получено имя каталога: /home/anton/Documents
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:51:23,246   - Запуск функции numbers_of_lines
+[INFO      ] [модуль:task_3.number_of_lines] 2024-02-21 20:51:23,251   - В указанной директории отсутствуют файлы с расширением .py
