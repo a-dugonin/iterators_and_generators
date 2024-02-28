@@ -35,7 +35,7 @@ if __name__ == '__main__':
     # path_name = get_files_path()
     # print(*numbers_of_lines(path_name), sep='\n')
 
-    # Ниже код для запуска скрипта реализованного в рамках task_3
+    # Ниже код для запуска скрипта реализованного в рамках task_4
     my_list = LinkedList()
     my_list.append(10)
     my_list.append(20)
