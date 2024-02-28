@@ -3,10 +3,11 @@ import logging
 # from task_2.file_paths import gen_files_path, get_files_path
 # from task_3.number_of_lines import numbers_of_lines, get_files_path
 # from task_4.linked_list import Node, LinkedList
+from task_5.log_processing import error_log_generator, get_files_path
 
 
 logger = logging.getLogger(__name__)
-fileHandler = logging.FileHandler(filename='application_log.log', encoding='utf-8')
+fileHandler = logging.FileHandler(filename='my_log.log', encoding='utf-8')
 logging.basicConfig(format='[%(levelname)-10s] [модуль:%(name)22s] %(asctime)-25s - %(message)s',
                     handlers=[fileHandler], level=logging.INFO)
 
@@ -52,3 +53,13 @@ if __name__ == '__main__':
     # print('Новый список:', my_list)
 
     # Ниже код для запуска скрипта реализованного в рамках task_5
+    path = get_files_path()
+    with open("error.txt", "w", encoding="utf_8") as errors_file:
+        logger.info("Запись ошибок error из лог файла в файл error.txt")
+        try:
+            for error in error_log_generator(path):
+                errors_file.write(error)
+            logger.info("Все ошибки уровня error записаны в отдельный файл error.txt")
+        except FileNotFoundError:
+            logger.error(f"Указанный путь ({path}) к файлу не существует или не является файлом")
+

@@ -267,3 +267,42 @@
 [INFO      ] [модуль:    task_4.linked_list] 2024-02-27 18:29:29,313   - Создание узла с использованием инициализации экземпляра класса Node
 [INFO      ] [модуль:    task_4.linked_list] 2024-02-27 18:29:29,313   - Узел создан со значением 40
 [INFO      ] [модуль:    task_4.linked_list] 2024-02-27 18:29:29,313   - Элемент 40 добавлен в конец списка
+[INFO      ] [модуль:              __main__] 2024-02-28 11:49:10,178   - Скрипт запущен
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 11:49:10,178   - Запрос пути к файлу с логами
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 11:49:18,690   - Функция get_files_path отработала корректно. Получено путь: /home/anton/PycharmProjects/iterators_and_generators/my_log.log
+[INFO      ] [модуль:              __main__] 2024-02-28 11:49:18,691   - Запись ошибок error из лог файла в файл error.txt
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 11:49:18,691   - Запуск функции error_log_generator
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 11:49:18,691   - Функция error_log_generator отработала корректно
+[INFO      ] [модуль:              __main__] 2024-02-28 11:49:18,691   - Все ошибки уровня error записаны в отдельный файл error.txt
+[INFO      ] [модуль:              __main__] 2024-02-28 11:50:23,183   - Скрипт запущен
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 11:50:23,183   - Запрос пути к файлу с логами
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 11:50:26,225   - Функция get_files_path отработала корректно. Получено путь: /home/anton/PycharmProjects/iterators_and_generators/my_log.log
+[INFO      ] [модуль:              __main__] 2024-02-28 11:50:26,225   - Запись ошибок error из лог файла в файл error.txt
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 11:50:26,225   - Запуск функции error_log_generator
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 11:50:26,226   - Функция error_log_generator отработала корректно
+[INFO      ] [модуль:              __main__] 2024-02-28 11:50:26,226   - Все ошибки уровня error записаны в отдельный файл error.txt
+[INFO      ] [модуль:              __main__] 2024-02-28 11:51:16,175   - Скрипт запущен
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 11:51:16,175   - Запрос пути к файлу с логами
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 11:51:20,248   - Функция get_files_path отработала корректно. Получено путь: /home/anton/PycharmProjects/iterators_and_generators
+[INFO      ] [модуль:              __main__] 2024-02-28 11:51:20,248   - Запись ошибок error из лог файла в файл error.txt
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 11:51:20,249   - Запуск функции error_log_generator
+[ERROR     ] [модуль: task_5.log_processing] 2024-02-28 11:51:20,249   - Указанный путь (/home/anton/PycharmProjects/iterators_and_generators) к файлу не существует или не является файлом
+[INFO      ] [модуль:              __main__] 2024-02-28 11:51:20,249   - Все ошибки уровня error записаны в отдельный файл error.txt
+[INFO      ] [модуль:              __main__] 2024-02-28 12:31:02,802   - Скрипт запущен
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 12:31:02,802   - Запрос пути к файлу с логами
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 12:31:04,651   - Функция get_files_path отработала корректно. Получено путь: /home/anton/PycharmProjects/iterators_and_generators
+[INFO      ] [модуль:              __main__] 2024-02-28 12:31:04,651   - Запись ошибок error из лог файла в файл error.txt
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 12:31:04,651   - Запуск функции error_log_generator
+[INFO      ] [модуль:              __main__] 2024-02-28 12:32:24,037   - Скрипт запущен
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 12:32:24,037   - Запрос пути к файлу с логами
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 12:32:25,972   - Функция get_files_path отработала корректно. Получено путь: /home/anton/PycharmProjects/iterators_and_generators
+[INFO      ] [модуль:              __main__] 2024-02-28 12:32:25,972   - Запись ошибок error из лог файла в файл error.txt
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 12:32:25,972   - Запуск функции error_log_generator
+[ERROR     ] [модуль:              __main__] 2024-02-28 12:32:25,972   - Указанный путь (/home/anton/PycharmProjects/iterators_and_generators) к файлу не существует или не является файлом
+[INFO      ] [модуль:              __main__] 2024-02-28 12:33:05,561   - Скрипт запущен
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 12:33:05,562   - Запрос пути к файлу с логами
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 12:33:08,600   - Функция get_files_path отработала корректно. Получено путь: /home/anton/PycharmProjects/iterators_and_generators/my_log.log
+[INFO      ] [модуль:              __main__] 2024-02-28 12:33:08,601   - Запись ошибок error из лог файла в файл error.txt
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 12:33:08,601   - Запуск функции error_log_generator
+[INFO      ] [модуль: task_5.log_processing] 2024-02-28 12:33:08,602   - Функция error_log_generator отработала корректно
+[INFO      ] [модуль:              __main__] 2024-02-28 12:33:08,602   - Все ошибки уровня error записаны в отдельный файл error.txt
