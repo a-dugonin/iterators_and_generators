@@ -27,6 +27,7 @@ class LinkedList:
     def __init__(self) -> None:
         logger.info(f"Создание односвязного списка посредством инициализации экземпляра класса LinkedList")
         self.head = None
+        self.length = 0
         logger.info(f"Создан пустой односвязный список")
 
     def __iter__(self) -> Iterator[Any]:
@@ -50,6 +51,7 @@ class LinkedList:
         while last_node.next_node:
             last_node = last_node.next_node
         last_node.next_node = new_node
+        self.length += 1
         logger.info(f"Элемент {value} добавлен в конец списка")
 
     def get(self, index: int) -> Any:
@@ -83,9 +85,12 @@ class LinkedList:
         prev_node = current_node
         node_index = 0
         try:
+            if self.length == 0 or self.length < index:
+                raise IndexError
 
             if index == 0:
                 self.head = current_node.next_node
+                self.length -= 1
                 return
 
             while node_index <= index:
@@ -95,9 +100,12 @@ class LinkedList:
                 current_node = current_node.next_node
                 node_index += 1
             prev_node.next_node = current_node.next_node
+            self.length -= 1
             logger.info("Узел успешно удален")
         except TypeError:
             logger.error(f"Передаваемый индекс должен быть числовой. В функцию передано значение {index}")
+        except IndexError:
+            logger.error(f"Элемент под указанным индексом отсутствует в списке")
 
     def __str__(self) -> str:
         linked_list_str = '['

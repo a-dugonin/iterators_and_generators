@@ -48,5 +48,5 @@ if __name__ == '__main__':
     print()
     print('Получение третьего элемента:', my_list.get(2))
     print('Удаление второго элемента.')
-    my_list.remove(1)
+    my_list.remove(4)
     print('Новый список:', my_list)
